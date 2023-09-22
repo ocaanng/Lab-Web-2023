@@ -1,0 +1,117 @@
+.header {
+  background-color: rgb(255, 130, 58);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frontnav {
+  padding: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.frontnav:hover {
+  /* background-color: rgb(214, 29, 29); */
+  color: rgb(239, 4, 4);
+}
+
+.about {
+  padding: 5px;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+}
+
+.about .about-content p {
+  margin: 5rem auto;
+  text-align: justify;
+  max-width: 55%;
+}
+
+.gallery {
+  margin-top: -8rem;
+  padding: 5rem;
+}
+
+.gallery .gallery-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.foto {
+  position: relative;
+  overflow: auto;
+  display: flex;
+}
+
+.foto img {
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+}
+
+.foto img:hover {
+  transform: scale(0.9);
+}
+
+.footer {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.6rem 3.8rem;
+  background-color: rgb(3, 87, 87);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: -2rem;
+}
+
+.footer .logo img {
+  width: 3rem;
+  margin-left: 3.1rem;
+  margin-bottom: -1rem;
+  margin-top: 0.7rem;
+}
+
+.footer.logo p {
+  color: white;
+}
+
+.footer.contact p {
+  color: white;
+}
+
+/* Media */
+@media (max-width: 768px) {
+  .gallery .gallery-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .gallery .gallery-content {
+    grid-template-columns: 1fr;
+  }
+}
