@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px; text-align: center;">
+
+<h2>Formulir Pendaftaran:</h2>
+<hr>
+
+<form action="GET" method="POST">
+    <fieldset>
+        <legend>Informasi Anda</legend>
+        <label for="first_name">Nama Pertama:</label><br>
+        <input type="text"><br>
+        <label for="last_name">Nama Terakhir:</label><br>
+        <input type="text"><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Address</legend>
+        <label for="street_address">Alamat 1:</label><br>
+        <input type="text"><br>
+        <label for="street_address_line2">Alamat 2:</label><br>
+        <input type="text"><br>
+        <label for="city">Kota:</label><br>
+        <input type="text"><br>
+        <label for="state">Provinsi:</label><br>
+        <input type="text"><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label for="phone">No Hp:</label><br>
+        <input type="text"><br>
+        <label for="email">Email:</label><br>
+        <input type="text"><br>
+    </fieldset>
+    <!--Garis Kotak Kotak  -->
+    <fieldset> 
+        <legend>Jenis Kelamin</legend>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="Laki-Laki">
+        <label for="male">Laki-Laki</label>
+        <input type="radio" name="gender" value="Perempuan">
+        <label for="female">Perempuan</label><br>
+    </fieldset>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
