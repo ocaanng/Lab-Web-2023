@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Manchester United</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <body id="home">
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#"
+          >Manchester<span style="color: red">United</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#history">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#jerseyteam">Jersey Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- AkhirNavBar -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/R (1).jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/MU4 (1).jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br />
+
+    <section id="history">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>History</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>
+              Manchester United, in full Manchester United Football Club, also called Manchester United FC, bynames Man U and the Red Devils, English professional football (soccer) team based in Manchester, England.
+          </div>
+          <div class="col-md-4">
+            <p>
+              Nicknamed “the Red Devils” for its distinctive red jerseys, it is one of the richest and best-supported football clubs not only in England but in the entire world. The club has won the English top-division league championship a record 20 times and the Football Association (FA) Cup 12 times.
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <section id="jerseyteam">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Jersey Team</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-5">
+            <div class="card">
+              <img
+                src="img/home (1).jpeg"
+                class="card-img-top"
+                alt="JerseyHome"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card">
+              <img
+                src="img/home (3).jpeg"
+                class="card-img-top"
+                alt="ThirdJersey"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card">
+              <img
+                src="img/home (2).jpeg"
+                class="card-img-top"
+                alt="JerseyAway"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="Name" class="form-label"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Name"
+                  aria-describedby="Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="Message" class="form-label">Message</label>
+                <textarea class="form-control" id="Message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <footer id="footer">
+      <div class="footer-logo">
+        <img src="img/logo-removebg-preview.png" alt="logoMU" style="height: 50px" />
+      </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/manchesterunited/"
+        ><i class="bi bi-instagram text-white"></i></a>
+        <a href="https://twitter.com/ManUtd?t=SWl7JA9xnKA2JgdgVAfCHg&s=08"
+        ><i class="bi bi-twitter-x text-white"></i></a>
+      </div>
+
+
+
+  </body>
+</html>
