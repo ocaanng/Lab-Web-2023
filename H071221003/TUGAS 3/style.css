@@ -1,0 +1,62 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 2000px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar .container .navbar-brand {
+    font-weight: 500;
+}
+
+.home .container {
+    padding-top: 5rem;
+
+}
+
+.home .container .teks {
+    margin-top: 9rem;
+}
+
+.home .container .teks .display{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.about {
+    background-color: #d6d6d6;
+    min-height: 500px;
+}
+
+.about .container .heading{
+    padding-top: 2rem;
+    font-weight: 55 0;
+}
+
+.about .sub-content p{
+    max-width: 55%;
+    margin-left: 22%;
+}
+
+.footer{
+    background-color: #d6d6d6;
+    padding: 1rem;  
+}
+
+/* @media screen and(max-width:500px) {
+
+    .home .container .row {
+        columns: auto;
+    }
+
+} */
