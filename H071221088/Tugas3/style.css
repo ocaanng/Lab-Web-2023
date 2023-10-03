@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(217, 217, 217);
+}
+
+.navbar-brand {
+    color: red;
+    font-size: 30px;
+}
+
+.header {
+    background-image:  url(pict1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-item {
+    color: white !important;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 70px;
+    margin-right: 70px;
+}
+
+.Trailer h1 {
+    text-align: flex-start;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 70px;
+}
+
+iframe {
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+}
+
+.container3 {
+    margin: 70px;
+}
+
+.container3 p{
+    font-size: 20px;
+}
+
+.Storyline h1 {
+    text-align: flex-start;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 70px;
+}
+
+.Storyline p {
+    margin-left: 70px;
+    font-size: 20px;
+    margin-right: 70px;
+}
+
+.Actor h1 {
+    text-align: flex-start;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 70px;
+}
+
+.Storyline img {
+    width: 100%;
+    height: 450px;
+    margin-left: 70px;
+}
+
+.Storyline h1 {
+    margin-bottom: 70px;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c0c0c59;
+    left: 0;
+    right: 0;
+    margin-top: 70px;
+}
+
+.End h1 {
+    text-align: flex-start;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+/* .container5 {
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 50px;
+} */
+
+.card img{
+    height: 270px;
+}
+
+.card :hover {
+    transform: scale(1.1);
+}
+
+.col :hover {
+    transform: scale(2.0);
+}
+
+.card{
+    margin: 5px;
+}
