@@ -1,0 +1,53 @@
+.section-head {
+  padding: 30px;
+}
+
+.section-gallery{
+  padding-left: 10px;
+}
+
+.section-head{
+  color: rgb(255, 255, 255);
+}
+
+.gallery{
+  background-color: rgb(29, 29, 29);
+}
+
+.Footer{
+  background-color: rgb(15, 15, 15);
+}
+
+.card{
+  border: 2px;
+  margin: 5px;
+}
+
+.card-body{
+  background-color: rgb(15, 15, 15);
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  border: 2px;
+}
+
+.btn:hover {
+  background-color: #ff0000;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+}
+
+.card img:hover {
+  transform: scale(1.015);
+}
+
+.container .logo a{
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2rem;
+}
