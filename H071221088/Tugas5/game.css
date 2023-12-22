@@ -1,0 +1,25 @@
+body {
+    background-image: url('latar.jpg');
+    background-size: cover;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card {
+    width: 10%;
+    margin-right: 10px;
+}
+
+#results {
+    color: white;
+}
+
+.text-center #menu {
+    padding: 200px;
+}
+.cardImg {
+    width: 10%;
+}
